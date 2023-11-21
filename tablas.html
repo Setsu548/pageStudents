@@ -7,13 +7,24 @@
     <title>Tablas</title>
 </head>
 <style>
-    table, th, td{
-        border: 1px solid black;
+    table {
+        border: 2px solid;
         /* border-collapse: collapse;*/
+        /* border-style: dashed; */
+        border-color: #3245f0;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    td, th{
+        border: 1px solid black;
+        border-radius: 10px;
         
     }
-    td, th{
-        border-radius: 10px;
+
+    td{
+        height: 45px;
     }
 
     th{
@@ -37,8 +48,8 @@
             <th>Nombre</th>
             <th>Apellido</th>
             <th>Ciudad</th>
-            <th>Telefono</th>
-            <th>Direccion</th>
+            <th style="width: 10%;">Telefono</th>
+            <th style="width: 40%;">Direccion</th>
         </tr>
         <tr id="color1">
             <td>Juan carlos</td>
