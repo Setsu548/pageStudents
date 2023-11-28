@@ -1,0 +1,27 @@
+div{
+    margin: 15px;
+}
+
+p{
+    /* margin: 60px; */
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    width: 30%;
+    height: 100px;
+    overflow: overlay;
+    /* float: left; */
+    /* display: inline; */
+}
+
+.izq{
+    background-color: bisque;
+    color: blue;
+    float: left;
+}
+
+.der{
+    background-color: brown;
+    color: aliceblue;
+    float: right;
+}
