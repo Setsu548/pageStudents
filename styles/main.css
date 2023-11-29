@@ -1,6 +1,15 @@
 body{
+    /*
+    Cascade=cascada
+    Style=estilo
+    Sheet=hoja
+     */
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: url(fondo1.jpg);
+    background-size: cover;
+    /* width: 100%; */
+    background-repeat: repeat-x;
 }
 
 nav{
